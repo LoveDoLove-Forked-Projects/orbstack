@@ -1,6 +1,2 @@
-# make sure you execute this *after* asdf or other version managers are loaded
-if (( $+commands[orbctl] )); then
-  eval "$(orbctl completion zsh)"
-  compdef _orb orbctl
-  compdef _orb orb
-fi
+# OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
